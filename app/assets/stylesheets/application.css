@@ -22,3 +22,18 @@
  .nav {
   text-align: right;
  }
+
+ 
+
+ .post-action-comments {
+  font-size: 11px;
+  color: #222;
+ }
+
+ .post-comments {
+  font-size: 11px;
+ }
+
+ .comment-author {
+  font-weight: bold;
+ }

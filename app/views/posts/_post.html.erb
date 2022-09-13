@@ -1,1 +1,25 @@
-<%= post.body %>
+<div class="post">
+  <div class="post-author">
+    <div class="avatar avatar-<%= rand(1..27) %>">
+    <div><%= post.user.username %></div>
+  </div>
+  <div class="post-body">
+    <span><%= post.body %></span>
+  </div>
+  <div class="post-actions">
+    <div class="post-actions-like"></div>
+    <div class="post-actions-comments">4 comments</div>
+  </div>
+  <div class="post-comments">
+    <div class="comment">
+      <span class="comment-author">joe</span>
+      This is something here
+    </div>
+    <div class="comment">
+      <span class="comment-author">joe</span>
+      This is something here
+    </div>
+  </div>
+</div>
+
+
